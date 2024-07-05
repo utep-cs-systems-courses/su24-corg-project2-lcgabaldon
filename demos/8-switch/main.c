@@ -1,9 +1,9 @@
 #include <msp430.h>
 #include "libTimer.h"
 
-#define LED_RED BIT0               // P1.0
-#define LED_GREEN BIT6             // P1.6
-#define LEDS (BIT0 | BIT6)
+#define LED_RED BIT6               // P1.0
+#define LED_GREEN BIT0             // P1.6
+#define LEDS (BIT6 | BIT0)
 
 #define SW1 BIT3		/* switch1 is p1.3 */
 #define SWITCHES SW1		/* only 1 switch on this board */
